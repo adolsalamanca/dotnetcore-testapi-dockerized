@@ -34,8 +34,9 @@ docker run -d -p 8080:80 --name mytestapi mytestapi
 
 ## Authors
 
-This project has been built around the official .NET and Docker examples with a few changes to expose the WebAPI properly.
-* **Adolfo Rodriguez**
+This project has been built around the official .NET and Docker examples.
+It just have a few adjustments to expose the WebAPI properly.
+*Adolfo Rodriguez*
 
 ## License
 
