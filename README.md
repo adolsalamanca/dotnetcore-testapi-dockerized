@@ -32,14 +32,16 @@ docker run -d -p 8080:80 --name mytestapi mytestapi
 
 * To test the API, you can simply access to http://localhost:8080/api/values in your host machine.
 
-## Authors
-
-This project has been built around the official .NET and Docker examples.
-It just have a few adjustments to expose the WebAPI properly.
-*Adolfo Rodriguez*
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Author
+
+This project has been built around the official .NET and Docker examples.
+It just have a few adjustments to expose the WebAPI properly.
+
+
+*Adolfo Rodriguez*
 
 
