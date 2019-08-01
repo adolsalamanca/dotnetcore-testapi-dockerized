@@ -13,6 +13,7 @@ What things you need to install the software and how to install them
 Docker
 ```
 
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
@@ -29,9 +30,8 @@ Afterwards, run the app expo
 docker build -t mytestapi . 
 ```
 
-```
 
-## Deployment
+### Deployment
 
 Simply build the .Net Core app inside your container
 
@@ -46,19 +46,26 @@ docker run -d -p 8080:80 --name mytestapi mytestapi
 
 ```
 
-## Test
 
+### Test
+
+```
 * To test the API, you can simply access to http://localhost:8080/api/values in your host machine.
+```
 
 ## Built With
 
+```
 * [.NET Core 2.2]
 * [Docker]
+```
+
 
 ## Authors
 
 This project has been built aroun the official .NET and Docker examples with a few changes to expose the WebAPI properly.
 * **Adolfo Rodriguez**
+
 
 ## License
 
